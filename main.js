@@ -26,34 +26,34 @@ let updateTimer;
 // ==== MUSIC LIST ====
 const music_list = [
   {
-    img: "assets/images/pic1.jpg",
+    img: "pic1.jpg",
     name: "Marethoyithe Song",
     artist: "Sanjith Hegde",
-    music: "assets/music/Marethoyithe.mp3"
+    music: "Marethoyithe.mp3"
   },
   {
-    img: "assets/images/pic2.jpg",
+    img: "pic2.jpg",
     name: "Ondu Motteya Kathe",
     artist: "Sonu Nigam",
-    music: "assets/music/OnduMotteyaKathe.mp3"
+    music: "OnduMotteyaKathe.mp3"
   },
   {
-    img: "assets/images/pic3.jpg",
+    img: "pic3.jpg",
     name: "Raktha Sambandhagalu",
     artist: "Karthik",
-    music: "assets/music/RakthaSambandhagalu.mp3"
+    music: "RakthaSambandhagalu.mp3"
   },
   {
-    img: "assets/images/pic4.jpg",
+    img: "pic4.jpg",
     name: "Yekoyeno Agide Song",
     artist: "Sanjith Hegde",
-    music: "assets/music/Yekoyeno.mp3"
+    music: "Yekoyeno.mp3"
   },
   {
-    img: "assets/images/pic5.jpg",
+    img: "pic5.jpg",
     name: "Last Song",
     artist: "Smile",
-    music: "assets/music/LastSong.mp3"
+    music: "LastSong.mp3"
   }
 ];
 
@@ -179,3 +179,4 @@ function repeatTrack() {
 
 // ==== START ====
 loadTrack(track_index);
+
